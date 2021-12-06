@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>primera pagina con estilos</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		header{
+			background-color: #0F4F5D;
+			padding: 20px;
+			text-align: center;
+			font-size: 20px;
+			color: white;
+
+		}
+		.menu{
+			background-color: #575364;
+			float: left;
+			width: 15%;
+			text-align: center;
+			height: 1257px;
+					}
+		.menu a{
+			padding: 8px;
+			margin-top: 7px;
+			display: block;
+			width: 100%;
+			color: white;
+			text-decoration: none;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		li{
+			float: center;
+		}
+		li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		.articulo1{
+			float: left;
+			padding: 25px;
+			width: 85%;
+			background-color: #60D4ED;
+			height: 450;
+		}
+		.articulo2{
+			float: left;
+			padding: 25px;
+			width: 85%;
+			background-color: #60D4ED;
+			height: 450;
+		}
+		.articulo3{
+			float: left;
+			padding: 25px;
+			width: 85%;
+			background-color: #60D4ED;
+			height: 450;
+		}
+		section{
+			display: table;
+			clear: both;
+			content: "";
+		}
+		p{
+			text-align: justify;
+		}
+		#imagen{
+			text-align: center;
+		}
+		table{
+			margin: 0 auto;
+		}
+		.tableta{
+			text-align: center;
+		}
+		footer{
+			background-color: #0F98C3;
+			padding: 10px;
+			text-align: center;
+			color: white;
+		}
+		@media screen and(max-width: 800px){
+			.menu, .articulo1, .articulo2, .articulo3{
+				width: 100%;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>National Basketball Association</h1>
+	</header>
+	<section>
+		<div style="overflow: auto;">
+			<div class="menu">			
+					<a href="tarea1.html">Inicio</a>
+					<!-- <a href="tarea2.html">Tabla de Posiciones</a>
+					<a href="tarea3.html">Mejores jugadores de la liga</a> -->
+					<a href="tarea4.html">Golden State Warriors</a>
+					<a href="tarea7.html">Estrella del equipo</a>
+					<a href="tarea8.html">Copas logradas</a>
+					<a href="tarea9.html">Galería de Imágenes</a>
+					<a href="https://www.nba.com/">PÁGINA OFICIAL</a>
+			</div>
+		
+		<div class="articulo1">
+			<div id="imagen">
+				<img src="img/nba.png" width="30%" height="30%">
+			</div>
+
+			<h3>NBA</h3>
+			<p>
+			La National Basketball Association, más conocida simplemente por sus siglas NBA, es una liga privada de baloncesto profesional que se disputa en Estados Unidos desde 1949, cuando se fusionaron las ligas profesionales National Basketball League (NBL, creada en 1937) y la Basketball Association of America (BAA, fundada en 1946). Al ser una entidad privada, no depende oficialmente de la Federación Estadounidense de Baloncesto. Los jugadores de la NBA están autorizados a competir internacionalmente tras un acuerdo especial a tres bandas firmado entre la <a href="https://www.fiba.basketball/es"> Federación Internacional de Baloncesto (FIBA)</a> —máximo organismo a nivel mundial—, la propia NBA y la Federación Estadounidense en 1989.1​
+			</p>
+		</div>
+		<div class="articulo2">
+			<h3>Tabla de Posiciones</h3>
+			<table class="tableta" border="1">
+			<caption><h4>Conferencias de la NBA</h4></caption>
+			<th colspan="3">Equipos</th>
+			<tr>
+				<th>Posición</th>
+				<th>Conferencia Este</th>
+				<th>Conferencia Oeste</th>
+			</tr>
+			<tr>
+				<td>
+					<ol>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ol>
+	                
+            	</td>
+            	<td>
+            		<ul>
+            			<li>Nets</li>
+            			<li>Bulls</li>
+            			<li>Heat</li>
+            			<li>Wizards</li>
+            			<li>Bucks</li>
+            			<li>Hornets</li>
+            			<li>Knicks</li>
+            			<li>76ers</li>
+            			<li>Cavaliers</li>
+            			<li>Hawks</li>
+            			<li>Celtics</li>
+            			<li>Raptors</li>
+            			<li>Pacers</li>
+            			<li>Pistons</li>
+            			<li>Magic</li>
+            		</ul>
+            	</td>
+            	<td>
+            		<ul>
+            			<li>Warriors</li>
+            			<li>Suns</li>
+            			<li>Jazz</li>
+            			<li>Mavericks</li>
+            			<li>Clippers</li>
+            			<li>Timberwolves</li>
+            			<li>Lakers</li>
+            			<li>Grizzlies</li>
+            			<li>Nuggets</li>
+            			<li>Trail Blazers</li>
+            			<li>Kings</li>
+            			<li>Spurs</li>
+            			<li>Thunder</li>
+            			<li>Pelicans</li>
+            			<li>Rockets</li>
+            		</ul>
+            	</td>
+			</tr>
+		</table>
+			</div>
+			<div class="articulo3">
+				<h3>Mejores jugadores de la liga</h3>
+				<table border="1">
+			<caption><h4>Mejores Jugadores</h4></caption>
+			<tr>
+				<th>Posición</th>
+				<th>Jugador</th>
+				<th>Equipo</th>
+			</tr>
+			<tr>
+				<td>
+					<ol>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						
+					</ol>
+	                
+            	</td>
+            	<td>
+            		<ul>
+            			<li>Lebron James</li>
+            			<li>Stephen Curry</li>
+            			<li>Luka Doncic</li>
+            			<li>Giannis Antetokounmpo</li>
+            			<li>James Harden</li>
+            			
+            		</ul>
+            	</td>
+            	<td>
+            		<ul>
+            			<li>Lakers</li>
+            			<li>Warriors</li>
+            			<li>Mavericks</li>
+            			<li>Bucks</li>
+            			<li>Nets</li>
+            			
+            		</ul>
+            	</td>
+			</tr>
+		</table>
+			</div>
+	</section>
+	<footer>
+		National Basketball Association
+	</footer>
+
+</body>
+</html>
