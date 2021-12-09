@@ -16,6 +16,21 @@
 			font-size: 20px;
 			color: white;
 		}
+		#galeria .col-lg-4{
+        /* quitar los margenes ya que bootstrap los trae por defecto */
+        margin: 0;
+        padding: 25px;
+      }
+      
+      #galeria img{
+        width: 100%;
+        height: 300px;
+      }
+
+      #galeria img:hover{
+        border: 10px solid #f7f7f7;
+      }
+
     </style>
 
 </head>
@@ -23,15 +38,47 @@
 	<header>
 		<h1>National Basketball Association</h1>
 	</header>
+<!-- Esta es la parte "section"-->
+<div id="galeria" class="container">
+      <div class="text-center pt-5">
+        <h1>Tienda en Básquetbol online</h1>
+        <p>Te invitamos a conocer nuestros productos a continuación:</p>
+      </div>
 
-	<div class="container">
-		<div class="text-center pt-3">
-        	<h1>Tienda Online</h1>
-        	<p>Elige los productos de nuestra tienda </p>
-      	</div>
+      <div class="row">
+         <div class="col-lg-4 col-md-6 col-sm-12">
+           <img src="img/arobasquet.jpg" alt="Galería Imagen">
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12">
+           <img src="img/balon.jpg" alt="Galería Imagen">
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12">
+           <img src="img/bolso.jpg" alt="Galería Imagen">
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12">
+           <img src="img/calcetines.jpg" alt="Galería Imagen">
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12">
+           <img src="img/primeracapa.jpg" alt="Galería Imagen">
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12">
+           <img src="img/short.jpg" alt="Galería Imagen">
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12">
+           <img src="img/tobillera.jpg" alt="Galería Imagen">
+         </div>
+         <div class="col-lg-4 col-md-6 col-sm-12">
+           <img src="img/zapatilla.jpg" alt="Galería Imagen">
+         </div>
 
-
-	</div>
+      </div>
+      
+    </div>
+    <!-- Esta el la parte del "footer" -->
+    <div class="mt-5 p-2 bg-info text-black text-center">
+      <p>National Basketball Association</p>
+    </div>
+	
 
 </body>
 </html>
