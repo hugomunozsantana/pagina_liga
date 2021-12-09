@@ -20,16 +20,16 @@
         /* quitar los margenes ya que bootstrap los trae por defecto */
         margin: 0;
         padding: 25px;
-      }
+      	}
       
-      #galeria img{
+      	#galeria img{
         width: 80%;
         height: 250px;
-      }
+      	}
 
-      #galeria img:hover{
+      	#galeria img:hover{
         border: 10px solid #f7f7f7;
-      }
+      	}
 
     </style>
 
@@ -161,39 +161,39 @@
       	</table>
       	<br><br><br><br>
       	
-      	<form action="pagina02.html" method="get">
+      	<form action="paginax.html" method="get">
 	    	<div class="text-center">
       		<h2>Datos de formulario de pedido</h2><br>
       		<p>Ingrese su datos en el siguiente formulario para realizar su solicitud de pedido</p>
       	    </div>
 	    	<div class="mb-3 mt-3">
-	    		<label for="name" class="form-label"></label>
+	    		<label for="name" class="form-label">Nombre:</label>
 	    		<input type="text" class="form-control" placeholder="Ingrese su nombre" name="nombre" required>
 	    	</div>
 	    	<div class="mb-3 mt-3">
-	    		<label for="rut" class="form-label"></label>
+	    		<label for="rut" class="form-label">Rut:</label>
 	    		<input type="text" class="form-control" placeholder="Ingrese su rut" name="rut" required>
 	    	</div>
 	    	<div class="mb-3 mt-3">
-	    		<label for="producto" class="form-label"></label>
-	    		<input type="text" class="form-control" placeholder="Ingrese nombre de producto" name="producto" required>
+	    		<label for="producto" class="form-label">Seleccionar Producto (seleccione uno):</label>
+	    		<select class="form-control" name="producto" required>
+	    			<option value="1">Aro de básquetbol</option>
+	    			<option value="2">Balón antipinchazos</option>
+	    			<option value="3">Bolso deportivo</option>
+	    			<option value="4">Calcetines niño</option>
+	    			<option value="5">Primera capa mujer</option>
+	    			<option value="6">Short</option>
+	    			<option value="7">Tobillera</option>
+	    			<option value="8">Zapatilla unisex adulto</option>
+	    		</select>
 	    	</div>
 	    	<div class="mb-3 mt-3">
-	    		<label for="cantidad" class="form-label"></label>
-	    		<input type="number" class="form-control" placeholder="Cantidad de productos solicitados" name="cantidad" min="1" max="10" required>
+	    		<label for="cantidad" class="form-label">Cantidad de productos:</label>
+	    		<input type="number" class="form-control" placeholder="Máximo 10 productos" name="cantidad" min="1" max="10" required>
 	    	</div>
 	    	<div class="mb-3 mt-3">
 	    		<label for="comentario" class="form-label">Comentarios:</label>
 	    		<textarea class="form-control" name="comentario" rows="9" cols="40"></textarea>
-	    	</div>
-	    	<div class="mb-3 mt-3">
-	    		<label for="hola" class="form-label">Seleccionar:</label>
-	    		<select class="form-control" name="hola">
-	    			<option value="1">uno</option>
-	    			<option value="2">dos</option>
-	    			<option value="3">tres</option>
-	    			<option value="4">cuatro</option>
-	    		</select>
 	    	</div>
 
 	    	
@@ -208,7 +208,7 @@
 
     </div>
 
-    <!-- Esta el la parte del "footer" -->
+    <!-- Esta es la parte del "footer" -->
     <div class="mt-5 p-2 bg-info text-black text-center">
       <p>National Basketball Association</p>
     </div>
